@@ -1,0 +1,36 @@
+{
+  "name": "e-commerce-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "node --experimental-json-modules -r dotenv/config scripts/seedDatabase.js"
+  },
+  "dependencies": {
+    "@auth/core": "^0.34.2",
+    "@radix-ui/react-avatar": "^1.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.429.0",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.4.5",
+    "next": "14.2.4",
+    "next-auth": "^4.24.7",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "eslint": "^8",
+    "eslint-config-next": "^0.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
